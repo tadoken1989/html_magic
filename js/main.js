@@ -15,5 +15,8 @@ $(document).ready(function() {
       $(this).addClass('active');
     
   });
-
+  $('#TOP').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+  });
 });

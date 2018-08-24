@@ -29,6 +29,14 @@
 @media only screen and (max-width: 768px)
 
 {
+	.navbar-header {
+    display: block;
+}
+	a.logo img {
+    width: auto !important;
+    padding-top: 10px;
+    max-width: inherit;
+}
 	.infor-qt {
     margin-top: 5%;
     display: inline-block;
@@ -98,8 +106,8 @@
 	}
 	.text-left {
     
-    margin-top: 20%;
-	}
+/* margin-top: 20%; */
+ }
 	.menu {
 
     padding: 0px;

@@ -36,7 +36,7 @@ p {
 
 img, .imgreponsive {
     max-width: 100%;
-    height: auto
+    /* height: auto */
 }
 
 .mheader, .ico_user2, .ico_luu2, .ico_tt2, .ico_napt2, .ico_dvu2, .ico_hist2, .ico_chuyen2, .ico_rut2, .faqhome .menu, .pagepopup .bxpopup1_r [class^="icon-"], .pagepopup .bxpopup1_r [class*=" icon-"] {
@@ -2145,8 +2145,8 @@ h2.titpoptt {
 }
 
 img, .imgreponsive {
-    max-width: 100%;
-    height: auto
+    /* max-width: 100%; */
+    /* height: auto; */
 }
 
 .btntry {
@@ -6239,7 +6239,10 @@ span.fo-rbt-slb-bold {
 .menu {
     /* background: url(../images/bg-menu.png); */
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
 }
 h3.title-section {
     display: inline-block;
@@ -6827,6 +6830,34 @@ span.qtlv-text-mobile {
 .qtlv-mb
 {
         display: none !important;
+}
+.mid-main {
+    padding-top: 75px;
+}
+.navbar-header {
+    display: none;
+}
+a#TOP {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 37px;
+    font-weight: bold;
+    /* border: 2px solid #000; */
+    /* padding: 10px 20px; */
+    display: block;
+}
+a#TOP i {
+    border: 3px solid #6BB13A; */
+    /* padding: 10px 20px; */
+    padding:;
+    padding: 5px 12px 7px 12px;
+    border-radius: 50%;
+    color: #6BB13A;
+}
+a#TOP i:hover {
+    background:#6BB13A;
+    color:#fff;
 }
 /* end css tab */
 /* end css main site */
