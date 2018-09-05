@@ -29,15 +29,34 @@
 @media only screen and (max-width: 768px)
 
 {
-	.navbar-header {
+	ul.inner-lt-wb li 
+	{
+    display: none;
+	}
+	.Danh-muc
+	{
+		display: block !important;
+		margin: 0 auto;
+		display: table-cell;
+		text-align: center;
+		float: none !important;
+	}
+	.bounceInUp
+	{
+    	animation-name: abc !important;
+	}
+	.navbar-header
+	{
     display: block;
-}
-	a.logo img {
+	}
+	a.logo img 
+	{
     width: auto !important;
     padding-top: 10px;
     max-width: inherit;
-}
-	.infor-qt {
+	}
+	.infor-qt 
+	{
     margin-top: 5%;
     display: inline-block;
     text-align: center;
@@ -88,8 +107,10 @@
 	}
 	.navbar-nav>li {
    	
-    margin-right: 10px;
-	}
+margin-right: 10px;
+   	
+margin-bottom: 5px;
+ }
 	#quytrinh-lamviec:before
 	{
 		content: none;
@@ -110,10 +131,13 @@
  }
 	.menu {
 
-    padding: 0px;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
+padding: 0px;
+
+position: fixed;
+
+width: 100%;
+
+z-index: 99;
 }
 	form.searchpage-event {
     
